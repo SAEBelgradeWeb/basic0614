@@ -1,0 +1,25 @@
+#nav {
+	margin: 0;
+	padding: 0;
+
+}
+
+li {
+	list-style-type: none;
+
+}
+
+#nav li a {
+	display: block;
+	text-decoration: none;
+
+	color: green;
+}
+
+ul li a:hover {
+
+}
+
+a {
+
+}

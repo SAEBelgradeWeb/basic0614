@@ -1,0 +1,27 @@
+table {
+	border: 1px solid black;	
+	margin: 0 auto;
+}
+
+tr th {
+	background-color: #ccc;
+}
+
+th, td {
+	padding: 10px;
+	border: 1px dotted black;
+}
+
+.nepar td {
+	background-color: lightblue;
+}
+
+.par td {
+	background-color: yellow;
+}
+
+tr:hover td {
+	background-color: green;
+	cursor: pointer;
+	color: white;
+}	

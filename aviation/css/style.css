@@ -1,0 +1,42 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+div {
+/*	border: 1px solid red;*/
+}
+
+#header {
+	height: 146px;
+	background-color: #274f75;
+}
+
+#nav {
+	height: 37px;
+	background-color: #83be0e;
+}
+
+#hero {
+	/*height: 455px;*/
+	height: 604px;
+	background-color: white;
+	background-image: url(../images/bg_nebo.jpg);
+	background-repeat: repeat-x;
+
+}
+
+#content {
+	height: 691px;
+}
+
+#footer{
+	height: 109px;
+	background-color: #274f75;
+}
+
+.container {
+	width: 942px;
+	/*height: 100%;*/
+	margin: 0 auto;
+}

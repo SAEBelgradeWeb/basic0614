@@ -1,34 +1,119 @@
 body {
 	padding: 0;
 	margin: 0;
+	font-family: Arial, sans-serif;
 }
 
 div {
 /*	border: 1px solid red;*/
 }
-
+*{
+	outline: 1px solid grey;
+}
+/*header start*/
 #header {
 	height: 146px;
 	background-color: #274f75;
 }
-
+.site_name{
+	width: 620px;
+	float: left;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 65px;
+	height: 100%;
+	line-height: 230%;
+	text-align: center;
+}
+#header span{
+	width: 300px;
+	text-align: right;
+	color: #fff;
+	float: right;
+	white-space:nowrap;
+}
+/*header end*/
+/* nav start*/
 #nav {
 	height: 37px;
 	background-color: #83be0e;
 }
-
-#hero {
-	/*height: 455px;*/
-	height: 604px;
-	background-color: white;
-	background-image: url(../images/bg_nebo.jpg);
-	background-repeat: repeat-x;
-
+#nav ul{
+	margin: 0;
+	padding: 0;
 }
-
+/* nav end*/
+/* main content start*/
+.main_wrapper{
+	background-image: url(../images/sky_bg.jpg);
+	background-repeat: repeat-x;
+}
+#hero {
+	height: 455px;
+}
+#hero .container{
+	background-image: url(../images/boy.png);
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	/*background-size: 533px auto;*/
+}
+#hero .container div{
+	width: 460px;
+	padding-top: 104px;
+	height: 123px;
+} 
+#hero .container p{
+	width: 460px;
+}
 #content {
 	height: 691px;
 }
+.articles{
+	width: 620px;
+	float: left;
+}
+.articles .first img{
+	width: 160px;
+	height: 150px;
+	padding: 9px;
+	border: 1px solid #c80808;
+	display: block;
+	float: left;
+}
+.articles .first p{
+	width: 400px;
+	float: right;
+}
+.clearfix{
+	clear: both;
+	width: 100%;
+}
+.normal{
+	width: 50%;
+	float: left;
+}
+.sidebar{
+	width: 300px;
+	float: right;
+}
+.side_post .date{
+	width: 38px;
+	height: 38px;
+	font-size: 18px;
+	color: #fff;
+	background-color: #224f75;
+	text-align: right;
+	float: left;
+}
+.side_post .date span{
+	display: block;
+}
+.side_post h4{
+	width: 250px;
+	float: right;
+}
+
+/* main content end*/
 
 #footer{
 	height: 109px;
@@ -37,6 +122,6 @@ div {
 
 .container {
 	width: 942px;
-	/*height: 100%;*/
+	height: 100%;
 	margin: 0 auto;
 }
